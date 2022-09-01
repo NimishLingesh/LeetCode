@@ -19,12 +19,6 @@ class Solution:
         first = first.next
         # print(first.next)
         while first != None and first.next!= None:
-            # next_set = first.next.next
-            # tmp = first.next
-            # prev.next = tmp
-            # tmp.next = first
-            # first.next = next_set
-            # first = first.next
             second = first.next
             next_set = second.next
 
