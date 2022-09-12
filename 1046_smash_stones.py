@@ -7,8 +7,11 @@ class Solution:
             diff = abs(s1-s2)
             if diff != 0:
                 stones.append(diff)
-            print(stones)
-        return stones[0]
+            # print(stones)
+        if len(stones) > 0:
+            return stones[0]
+        else:
+            return 0
 
 sol = Solution()
 stones = [2,7,4,1,8,1]
