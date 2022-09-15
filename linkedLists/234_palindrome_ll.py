@@ -37,6 +37,25 @@ class Solution(object):
         else:
             return True
 
+# OPTIMAL AND EASY SOLUTION
+#create a list
+# a = []
+# #iterate untill last node
+# while head != None:
+#         #add  value of node to list
+#         a.append(head.val)
+#         #change the head to head of next node
+#         head= head.next
+# #check if the list is same as the reverse of it 
+# if a == a[::-1]:
+#         #if the list is same as the reverse of it 
+#         #then return true
+#         return True
+# #if the list is not same as the reverse of it 
+# else:
+#         #then return false
+#         return False
+
 sol = Solution()
 l = [1]
 cur = None
